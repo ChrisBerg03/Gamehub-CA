@@ -1,4 +1,4 @@
-ul {
+nav {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -7,8 +7,57 @@ ul {
 body {
     background-color: #1E1E1E;
     margin: 0;
+    max-width: 430px;
+    max-height: 932px;
 }
 
-.hamburger {
-    justify-content: left;
+.fa-solid {
+    color: white;
+    padding: 32px 116px 0 116px
+}
+
+footer {
+    background-color: #181818;
+    width: 430px;
+    height: 269px;
+    position: fixed;
+    bottom: 0;
+}
+
+.bottom-info {
+    color: white;
+    text-align: center;
+}
+.bottom-socials {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px 0 50px;
+    justify-content: center;
+}
+
+.social-space {
+    margin: auto;
+}
+
+.hr-line {
+    max-width: 398px;
+    color: #3e3e3e;
+}
+
+.bottom-nav {
+    background-color: #222222;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+}
+
+.bottom-icon {
+
+    max-width: 36px;
 }
