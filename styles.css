@@ -1,4 +1,4 @@
-nav {
+.top-nav {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -7,8 +7,7 @@ nav {
 body {
     background-color: #1E1E1E;
     margin: 0;
-    max-width: 430px;
-    max-height: 932px;
+    max-width: 100vw;
 }
 
 .fa-solid {
@@ -18,7 +17,7 @@ body {
 
 footer {
     background-color: #181818;
-    width: 430px;
+    width: 100vw;
     height: 269px;
     position: fixed;
     bottom: 0;
@@ -42,22 +41,20 @@ footer {
 }
 
 .hr-line {
-    max-width: 398px;
+    max-width: 80vw;
     color: #3e3e3e;
 }
 
 .bottom-nav {
     background-color: #222222;
     color: white;
+    text-align: center;
     display: flex;
     flex-direction: row;
-    padding: 0;
-    position: fixed;
-    bottom: 0;
-    height: 65px;
+    padding: 0 0 0 0;
+    justify-content: center;
 }
 
 .bottom-icon {
-
-    max-width: 36px;
+    margin: 0;
 }
