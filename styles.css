@@ -10,17 +10,31 @@ body {
     max-width: 100vw;
 }
 
-.fa-solid {
+.fa-solid, .fa-regular {
     color: white;
-    padding: 32px 116px 0 116px
+}
+
+#totalBottom{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content:space-evenly;
+    background-color: rgb(78, 78, 78);
+    height:80px;
+
+}
+
+#totalBottom i{
+    text-align: center;
+    margin: auto;
 }
 
 footer {
     background-color: #181818;
     width: 100vw;
     height: 269px;
-    position: fixed;
     bottom: 0;
+    position: fixed;
 }
 
 .bottom-info {
